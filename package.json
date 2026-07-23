@@ -1,14 +1,33 @@
 {
   "name": "meridian",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A TypeScript-based design system and VS Code theme generator.",
+  "keywords": [
+    "meridian",
+    "design-system",
+    "vscode",
+    "theme",
+    "generator"
+  ],
+  "homepage": "https://github.com/placeholder/meridian#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/placeholder/meridian.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Placeholder <placeholder@example.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "generate": "tsx src/generator/index.ts",
+    "validate": "npm run lint && npm run typecheck"
+  },
   "packageManager": "pnpm@10.33.4",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
