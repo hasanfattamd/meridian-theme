@@ -1,4 +1,4 @@
-# Meridian Theme
+# Meridian Dark Suite
 
 Meridian is a TypeScript-first design system and a precisely calibrated dark theme for VS Code. Instead of maintaining giant JSON blobs full of hardcoded hex values, Meridian defines colors procedurally using a strict compiler pipeline, ensuring perfect mathematical harmony across the entire workbench and code syntax.
 
