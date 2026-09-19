@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meridian Logo Preview</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #111;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .preview-container {
+      padding: 40px;
+      background: #222;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+      text-align: center;
+    }
+    h1 {
+      color: white;
+      margin-top: 0;
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-container">
+    <h1>Final Icon Concept</h1>
+    <svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="splitColor" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="50%" stop-color="#FF7B00" />
+          <stop offset="50%" stop-color="#FFFFFF" />
+        </linearGradient>
+      </defs>
+
+      <!-- Solid Black Background -->
+      <rect width="256" height="256" fill="#0D0D0D" />
+      
+      <!-- Ultra-sharp, abstract geometric 'M' -->
+      <!-- Half orange, half white using the gradient -->
+      <path d="M 50 166 L 96 66 L 128 126 L 160 66 L 206 166" 
+            stroke="url(#splitColor)" 
+            stroke-width="26" 
+            stroke-linecap="butt" 
+            stroke-linejoin="miter" 
+            stroke-miterlimit="4"
+            fill="none" />
+
+      <!-- Minimal, stylish text below -->
+      <text x="131" y="214" 
+            text-anchor="middle" 
+            font-size="18" 
+            font-weight="700" 
+            letter-spacing="6" 
+            fill="#888888">MERIDIAN</text>
+    </svg>
+  </div>
+</body>
+</html>

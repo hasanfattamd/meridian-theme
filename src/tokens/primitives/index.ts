@@ -6,3 +6,5 @@ export * from './orange.js';
 export * from './yellow.js';
 export * from './purple.js';
 export * from './cyan.js';
+export * from './teal.js';
+export * from './gold.js';

@@ -2,18 +2,18 @@ import type { PrimitivePalette } from '../types.js';
 
 /**
  * Immutable primitive palette for purple.
- * @remarks These are temporary placeholder colors.
+ * (Island UI injected values)
  */
 export const purple: PrimitivePalette = {
-  50: '#000000',
-  100: '#000000',
-  200: '#000000',
-  300: '#000000',
-  400: '#000000',
-  500: '#000000',
-  600: '#000000',
-  700: '#000000',
-  800: '#000000',
-  900: '#000000',
-  950: '#000000',
+  50: '#FDF5FF',
+  100: '#F8E0FB',
+  200: '#EFBEF5',
+  300: '#E195EB',
+  400: '#C77DBB',
+  500: '#A65399',
+  600: '#823D77',
+  700: '#612A58',
+  800: '#451B3E',
+  900: '#2B0F25',
+  950: '#170613',
 } as const;

@@ -198,15 +198,6 @@ export function relativeLuminance(hex: string): number {
 }
 
 /**
- * An alias for relativeLuminance.
- * @param hex - The hex color string.
- * @returns The luminance (0 to 1).
- */
-export function luminance(hex: string): number {
-  return relativeLuminance(hex);
-}
-
-/**
  * Determines if a color is considered dark based on WCAG luminance.
  * @param hex - The hex color string.
  * @returns True if the color is dark.

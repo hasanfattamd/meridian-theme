@@ -1,17 +1,27 @@
-import { neutral, red, green, yellow, blue, purple, cyan } from '../primitives/index.js';
+import { islands } from '../islands.js';
 
 /**
- * Semantic tokens for integrated terminal ANSI colors.
+ * Semantic integrated-terminal tokens. Islands Dark sets only the console
+ * background (#191A1C) and normal output (#BCBEC4); the 16 ANSI slots inherit
+ * JetBrains' Darcula console palette.
  */
 export const terminal = {
-  background: neutral[950],
-  foreground: neutral[50],
-  black: neutral[900],
-  red: red[500],
-  green: green[500],
-  yellow: yellow[500],
-  blue: blue[500],
-  magenta: purple[500],
-  cyan: cyan[500],
-  white: neutral[100],
+  background: islands.terminal.background,
+  foreground: islands.terminal.foreground,
+  black: islands.terminal.black,
+  red: islands.terminal.red,
+  green: islands.terminal.green,
+  yellow: islands.terminal.yellow,
+  blue: islands.terminal.blue,
+  magenta: islands.terminal.magenta,
+  cyan: islands.terminal.cyan,
+  white: islands.terminal.white,
+  brightBlack: islands.terminal.brightBlack,
+  brightRed: islands.terminal.brightRed,
+  brightGreen: islands.terminal.brightGreen,
+  brightYellow: islands.terminal.brightYellow,
+  brightBlue: islands.terminal.brightBlue,
+  brightMagenta: islands.terminal.brightMagenta,
+  brightCyan: islands.terminal.brightCyan,
+  brightWhite: islands.terminal.brightWhite,
 } as const;

@@ -22,4 +22,6 @@ export type PrimitiveColorName =
   | 'orange'
   | 'yellow'
   | 'purple'
-  | 'cyan';
+  | 'cyan'
+  | 'teal'
+  | 'gold';

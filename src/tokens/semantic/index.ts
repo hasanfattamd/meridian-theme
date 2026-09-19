@@ -5,3 +5,4 @@ export * from './border.js';
 export * from './state.js';
 export * from './git.js';
 export * from './terminal.js';
+export * from './syntax.js';

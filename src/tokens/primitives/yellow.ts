@@ -2,18 +2,18 @@ import type { PrimitivePalette } from '../types.js';
 
 /**
  * Immutable primitive palette for yellow.
- * @remarks These are temporary placeholder colors.
+ * (Island UI injected values)
  */
 export const yellow: PrimitivePalette = {
-  50: '#000000',
-  100: '#000000',
-  200: '#000000',
-  300: '#000000',
-  400: '#000000',
-  500: '#000000',
-  600: '#000000',
-  700: '#000000',
-  800: '#000000',
-  900: '#000000',
-  950: '#000000',
+  50: '#FFFDF0',
+  100: '#FFF8D6',
+  200: '#FFF0A8',
+  300: '#FFE373',
+  400: '#E8BF6A',
+  500: '#CC9D3D',
+  600: '#A87C26',
+  700: '#855E14',
+  800: '#63430A',
+  900: '#422A03',
+  950: '#241500',
 } as const;
