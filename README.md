@@ -9,6 +9,28 @@ Meridian is a TypeScript-first design system and a precisely calibrated dark the
 - **Unified TextMate Mappings:** Arcane regex syntax scopes are grouped by logical language concepts, preventing UI fragmentation across different programming languages.
 - **Zero Configuration:** Just install and use.
 
+## Screenshots
+
+Shown in **Meridian Dark**. All 13 variants share the same syntax colors and differ in the workbench palette and background (see [Variants](#variants)).
+
+![Meridian Dark: JavaScript and TypeScript side by side](screenshots/overview.png)
+
+### JavaScript
+
+![Meridian Dark in JavaScript](screenshots/javascript.png)
+
+### TypeScript
+
+![Meridian Dark in TypeScript](screenshots/typescript.png)
+
+### HTML
+
+![Meridian Dark in HTML](screenshots/html.png)
+
+### CSS
+
+![Meridian Dark in CSS](screenshots/css.png)
+
 ## Variants
 
 All variants share the same syntax colors and differ in the workbench palette and background.

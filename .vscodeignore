@@ -4,6 +4,7 @@
 src/**
 docs/**
 samples/**
+screenshots/**
 coverage/**
 node_modules/**
 build-theme.ts
